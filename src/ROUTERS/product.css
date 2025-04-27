@@ -1,0 +1,244 @@
+/* -------------------------------------------Hats.jsx---------------------------------------------- */
+.hats{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.hats div{
+    height: 330px;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #d6ebff;
+}
+
+.hats img{
+    height: 150px;
+    width: 180px;
+}
+
+.hats h1{
+    font-size: 28px;
+}
+
+.hats button{
+    height: 40px;
+    width: 150px;
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 25px;
+    background-color: #5978ed;
+    color: #CCFFFF;
+}
+
+.hats button:hover{
+    color: #ffff00;
+}
+
+
+
+
+
+
+
+/* -------------------------------------------NeckTie.jsx------------------------------------------------- */
+.ties{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.ties div{
+    width: 200px;
+    height: 330px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #cce6cc;
+}
+
+.ties img{
+    height: 150px;
+    width: 180px;
+}
+
+.ties h1{
+    text-align: center;
+    font-size: 26px;
+}
+
+.ties button{
+    height: 40px;
+    width: 150px;
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 25px;
+    background-color: #5978ed;
+    color: #CCFFFF;
+}
+
+.ties button:hover{
+    color: #ffff00;
+}
+
+
+
+
+/* -------------------------------------------Shirts.jsx------------------------------------------------- */
+.shirt{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.shirt div{
+    width: 200px;
+    height: 330px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #cccccc;
+}
+
+.shirt img{
+    height: 150px;
+    width: 180px;
+}
+
+.shirt h1{
+    text-align: center;
+    font-size: 26px;
+}
+
+.shirt button{
+    height: 40px;
+    width: 150px;
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 25px;
+    background-color: #5978ed;
+    color: #CCFFFF;
+}
+
+.shirt button:hover{
+    color: #ffff00;
+}
+
+
+
+/* -------------------------------------------Pants.jsx------------------------------------------------- */
+.pant{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.pant div{
+    width: 200px;
+    height: 330px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #cccccc;
+}
+
+.pant img{
+    height: 150px;
+    width: 180px;
+}
+
+.pant h1{
+    text-align: center;
+    font-size: 26px;
+}
+
+.pant button{
+    height: 40px;
+    width: 150px;
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 25px;
+    background-color: #5978ed;
+    color: #CCFFFF;
+}
+
+.pant button:hover{
+    color: #ffff00;
+}
+
+
+
+
+
+
+/* -------------------------------------------Shoes.jsx------------------------------------------------- */
+.shoe{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.shoe div{
+    width: 200px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #cccccc;
+}
+
+.shoe img{
+    height: 150px;
+    width: 180px;
+}
+
+.shoe h1{
+    text-align: center;
+    font-size: 26px;
+}
+
+.shoe button{
+    height: 40px;
+    width: 150px;
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 25px;
+    background-color: #5978ed;
+    color: #CCFFFF;
+}
+
+.shoe button:hover{
+    color: #ffff00;
+}

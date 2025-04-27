@@ -1,0 +1,72 @@
+[
+    {
+        "id": "1",
+        "name": "Running Shoes",
+        "image": "https://images.meesho.com/images/products/233816974/hmo5k_512.webp",
+        "size": "10",
+        "price": 3999.99
+    },
+    {
+        "id": "2",
+        "name": "Casual Sneakers",
+        "image": "https://admin.walkwayshoes.com/product/17-68/1080/17-68-11-41-1.JPG",
+        "size": "9",
+        "price": 2999.50
+    },
+    {
+        "id": "3",
+        "name": "Formal Leather Shoes",
+        "image": "https://assets.ajio.com/medias/sys_master/root/20250227/qAfK/67c0198359f8353980fe04ec/-473Wx593H-466380071-maroon-MODEL.jpg",
+        "size": "11",
+        "price": 5999.00
+    },
+    {
+        "id": "4",
+        "name": "Loafers",
+        "image": "https://kxadmin.metroshoes.com/product/71-8491-45-40/1200/71-8491LA45.jpg",
+        "size": "10",
+        "price": 3499.00
+    },
+    {
+        "id": "5",
+        "name": "Hiking Boots",
+        "image": "https://baccabucci.com/cdn/shop/products/MG_8744_953e795a-cf3f-47ed-b447-3a2cc6c0ff26.jpg?v=1598315399",
+        "size": "12",
+        "price": 4999.50
+    },
+    {
+        "id": "6",
+        "name": "High Top Sneakers",
+        "image": "https://images.bewakoof.com/original/men-s-red-black-color-block-high-top-sneakers-630682-1721643544-1.jpg",
+        "size": "8",
+        "price": 2999.99
+    },
+    {
+        "id": "7",
+        "name": "Slip-On Shoes",
+        "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/310591/01/sv05/fnd/IND/fmt/png/PUMA-Softride-Gush-Men's-Slip-On-Shoes",
+        "size": "11",
+        "price": 2499.00
+    },
+    {
+        "id": "8",
+        "name": "Sandals",
+        "image": "https://img.tatacliq.com/images/i18//437Wx649H/MP000000022436170_437Wx649H_202405301834101.jpeg",
+        "size": "10",
+        "price": 1299.00
+    },
+    {
+        "id": "9",
+        "name": "Ballet Flats",
+        "image": "https://i.etsystatic.com/28055994/r/il/01cb67/3025054710/il_570xN.3025054710_d1jr.jpg",
+        "size": "7",
+        "price": 1999.50
+    },
+    {
+        "id": "10",
+        "name": "Canvas Shoes",
+        "image": "https://rukminim3.flixcart.com/image/850/1000/xif0q/shoe/d/9/k/-original-imagg6h9fguwajzn.jpeg?q=90&crop=false",
+        "size": "9",
+        "price": 1799.99
+    }
+]

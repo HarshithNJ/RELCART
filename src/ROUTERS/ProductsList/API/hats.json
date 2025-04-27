@@ -1,0 +1,72 @@
+[
+    {
+        "id": "1",
+        "name": "Classic Fedora",
+        "image": "https://www.christys-hats.com/cdn/shop/files/cso100019_fedora_navy_front_1.jpg?v=1699489813&width=2500",
+        "size": "M",
+        "price": 1200.00
+    },
+    {
+        "id": "2",
+        "name": "Straw Sun Hat",
+        "image": "https://www.realsimple.com/thmb/21slXfDJV7BAQnvEbC9TA-tm0Qw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Best-Sun-Hats-of-2023-tout-f847da550b3849c795bd4d4afd94e221.jpg",
+        "size": "L",
+        "price": 850.00
+    },
+    {
+        "id": "3",
+        "name": "Baseball Cap",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/58/Basecap_New_York_Yankees.jpg",
+        "size": "M",
+        "price": 600.00
+    },
+    {
+        "id": "4",
+        "name": "Woolen Beanie",
+        "image": "https://cdn.shopclues.com/images1/thumbnails/115777/320/320/152867929-115777754-1638521711.jpg",
+        "size": "S",
+        "price": 400.00
+    },
+    {
+        "id": "5",
+        "name": "Newsboy Cap",
+        "image": "https://content.jdmagicbox.com/quickquotes/images_main/plain-snapback-cap-black-gai2215f.jpg?impolicy=queryparam&im=Resize=(360,360),aspect=fit",
+        "size": "M",
+        "price": 700.00
+    },
+    {
+        "id": "6",
+        "name": "Bucket Hat",
+        "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3c82fdcd693a4faab16456d693e0b027_9366/Adicolor_Trefoil_Bucket_Hat_Black_JC6041_01_00_standard.jpg",
+        "size": "L",
+        "price": 500.00
+    },
+    {
+        "id": "7",
+        "name": "Cowboy Hat",
+        "image": "https://images-cdn.ubuy.co.in/636293a7d89fe3636c26a3e6-amiliee-men-western-cowboy-hat-fedora.jpg",
+        "size": "XL",
+        "price": 1500.00
+    },
+    {
+        "id": "8",
+        "name": "Trilby Hat",
+        "image": "https://images-cdn.ubuy.co.in/6645d766d2f4a219922c7950-bailey-of-hollywood-men-39-s-dalton.jpg",
+        "size": "M",
+        "price": 1100.00
+    },
+    {
+        "id": "9",
+        "name": "Top Hat",
+        "image": "https://media.istockphoto.com/id/1131015471/vector/vintage-classic-top-hat-vector-illustration.jpg?s=612x612&w=0&k=20&c=-6ttUqSz1zstYAIna00eFYjn9TaOrWterPQdZ-ifOso=",
+        "size": "M",
+        "price": 2000.00
+    },
+    {
+        "id": "10",
+        "name": "Wide Brim Hat",
+        "image": "https://hillshats.co.nz/wp-content/uploads/2024/07/254_StructuredWideBrim_WM.jpg",
+        "size": "L",
+        "price": 1600.00
+    }
+]

@@ -1,0 +1,63 @@
+{
+  "Registered_User": [
+    {
+      "id": "3128",
+      "username": "Harshith",
+      "email": "harshithnj2002@gmail.com",
+      "mobile": "8217000913",
+      "password": "Harshith"
+    },
+    {
+      "id": "1ebb",
+      "username": "Harshith",
+      "email": "harshithnj2002@gmail.com",
+      "mobile": "8217000913",
+      "password": "Harshith"
+    },
+    {
+      "id": "5312",
+      "username": "Harshith",
+      "email": "harshithnj2002@gmail.com",
+      "mobile": "8217000913",
+      "password": "Harshith"
+    },
+    {
+      "id": "c84e",
+      "username": "Harshith",
+      "email": "harshithnj2002@gmail.com",
+      "mobile": "8217000913",
+      "password": "Harshith"
+    },
+    {
+      "id": "6915",
+      "username": "Suresh",
+      "email": "s@gmail.com",
+      "mobile": "5437896312",
+      "password": "prod"
+    },
+    {
+      "id": "7e88",
+      "username": "Harshith",
+      "email": "harshithnj2002@gmail.com",
+      "mobile": "8217000913",
+      "password": "123"
+    }
+  ],
+  "Users": [
+    {
+      "id": "ae30",
+      "username": "Harshith",
+      "password": "Harshith@123"
+    },
+    {
+      "id": "5a43",
+      "username": "Suresh",
+      "password": "prod"
+    },
+    {
+      "id": "22fd",
+      "username": "Harshith",
+      "password": "Harshith"
+    }
+  ]
+}

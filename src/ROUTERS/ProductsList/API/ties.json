@@ -1,0 +1,72 @@
+[
+    {
+        "id": "1",
+        "name": "Classic Red Silk Tie",
+        "image": "https://shop.edeandravenscroft.com/cdn/shop/files/Ede_Ravenscroft_M03220231221801_TexturedHopsackWovenSilkTieRed.jpg?v=1704276304&width=1080",
+        "size": "Standard",
+        "price": 799.99
+    },
+    {
+        "id": "2",
+        "name": "Navy Blue Striped Tie",
+        "image": "https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/9326477/2024/9/5/ff8686ab-0b0c-48cf-b506-66cde9d2c79c1725551286478-PELUCHE-Navy-Blue-Striped-Broad-Tie-6301725551286107-1.jpg",
+        "size": "Standard",
+        "price": 899.50
+    },
+    {
+        "id": "3",
+        "name": "Polka Dot Tie",
+        "image": "https://thedapperman.in/cdn/shop/products/1_3331d718-5f04-45c5-b86d-d58922378bfe.jpg?v=1659181227",
+        "size": "Slim",
+        "price": 699.00
+    },
+    {
+        "id": "4",
+        "name": "Charcoal Gray Tartan Tie",
+        "image": "https://www.tiemart.com/cdn/shop/products/black-glen-plaid-tie_2_1_500x@2x.jpg?v=1580851717",
+        "size": "Standard",
+        "price": 999.00
+    },
+    {
+        "id": "5",
+        "name": "Green Paisley Tie",
+        "image": "https://m.media-amazon.com/images/I/81TeQy+GP6L._AC_UY1100_.jpg",
+        "size": "Standard",
+        "price": 849.50
+    },
+    {
+        "id": "6",
+        "name": "Burgundy Slim Tie",
+        "image": "https://m.media-amazon.com/images/I/71C7uv6Q6LL._AC_UY1100_.jpg",
+        "size": "Slim",
+        "price": 749.00
+    },
+    {
+        "id": "7",
+        "name": "Black Satin Tie",
+        "image": "https://rukminim2.flixcart.com/image/850/1000/tie/4/m/s/ztc2gm009-zodex-free-original-imaejdgk6kgpbyhp.jpeg?q=90&crop=false",
+        "size": "Standard",
+        "price": 599.00
+    },
+    {
+        "id": "8",
+        "name": "Vintage Floral Tie",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAwWbUrgdcwp3jw1TC4Dtuw1xot3SLDcwLmg&s",
+        "size": "Standard",
+        "price": 999.00
+    },
+    {
+        "id": "9",
+        "name": "Beige Knitted Tie",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZYiqYeMiKHBowU-Di3TJg2t_EpbPv7y6TNw&s",
+        "size": "Slim",
+        "price": 699.99
+    },
+    {
+        "id": "10",
+        "name": "Yellow Stripe Tie",
+        "image": "https://m.media-amazon.com/images/I/4172LatRx+L._AC_UY1100_.jpg",
+        "size": "Standard",
+        "price": 849.00
+    }
+]

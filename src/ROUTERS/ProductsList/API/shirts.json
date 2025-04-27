@@ -1,0 +1,72 @@
+[
+    {
+        "id": "1",
+        "name": "Classic White Shirt",
+        "image": "https://imagescdn.thecollective.in/img/app/product/9/928771-11755257.jpg?w=500&auto=format",
+        "size": "M",
+        "price": 999.99
+    },
+    {
+        "id": "2",
+        "name": "Casual Blue Shirt",
+        "image": "https://cottonbay.co.in/cdn/shop/files/Men_sSkyBluePinstripeShirt.jpg?v=1732688827",
+        "size": "L",
+        "price": 1299.50
+    },
+    {
+        "id": "3",
+        "name": "Striped Dress Shirt",
+        "image": "https://m.media-amazon.com/images/I/814KUuq5n8L._AC_UY1100_.jpg",
+        "size": "S",
+        "price": 799.00
+    },
+    {
+        "id": "4",
+        "name": "Checkered Shirt",
+        "image": "https://cdn-images.farfetch-contents.com/25/03/27/29/25032729_55240789_600.jpg",
+        "size": "XL",
+        "price": 1499.00
+    },
+    {
+        "id": "5",
+        "name": "Denim Shirt",
+        "image": "https://img.joomcdn.net/93760755aa12bc079e66379458e1cdc1b017dc3c_original.jpeg",
+        "size": "M",
+        "price": 1799.50
+    },
+    {
+        "id": "6",
+        "name": "Polo T - Shirt",
+        "image": "https://www.teez.in/cdn/shop/products/Palin-Polo-T-Shirt-Online-In-India-Polo-4_large.jpg?v=1580197028",
+        "size": "L",
+        "price": 899.00
+    },
+    {
+        "id": "7",
+        "name": "Graphic Tee",
+        "image": "https://i.etsystatic.com/6825841/r/il/38250f/3347130285/il_570xN.3347130285_pa7k.jpg",
+        "size": "S",
+        "price": 499.00
+    },
+    {
+        "id": "8",
+        "name": "Flannel Shirt",
+        "image": "https://m.media-amazon.com/images/I/91eUSeyDaPL._AC_UY1100_.jpg",
+        "size": "M",
+        "price": 1299.00
+    },
+    {
+        "id": "9",
+        "name": "Short Sleeve Shirt",
+        "image": "https://imagescdn.thecollective.in/img/app/product/6/672082-6980029.jpg?w=500&auto=format",
+        "size": "L",
+        "price": 849.00
+    },
+    {
+        "id": "10",
+        "name": "Long Sleeve Shirt",
+        "image": "https://imagescdn.thecollective.in/img/app/product/2/298633-3619478.jpg?w=500&auto=format",
+        "size": "XL",
+        "price": 1099.99
+    }
+]

@@ -1,0 +1,366 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+/* ---------------------------------------Home.jsx------------------------------ */
+.nav{
+    height: 80px;
+    width: 100%;
+    background-color: #4d0066;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo h1{
+    margin: 20px;
+    font-size: 30px;
+    color: #66ff00;
+}
+#logo img{
+    margin: 0 0 0 80px;
+    height: 40px;
+    width: 50px;
+}
+
+.nav ul{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav ul li{
+    list-style: none;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.link{
+    text-decoration: none;
+    color: #CCFFFF;
+}
+
+.link:hover{
+    color: #ffff00;
+}
+
+
+#btns{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.link1{
+    text-decoration: none;
+}
+
+#btns button{
+    width: 120px;
+    height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #5978ed;
+    border: 2px solid #5978ed;
+    border-radius: 25px;
+}
+
+button .link1{
+    color: #CCFFFF;
+}
+
+#btns button:hover{
+    background-color: #66ff00;
+    border: 3px solid #66ff00;
+}
+button .link1:hover{
+    background-color: #66ff00;
+    color: black;
+}
+
+
+
+
+
+/* ------------------------------Register.jsx---------------------------------- */
+.signup{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup form{
+    height: 550px;
+    width: 600px;
+    background-color: #852447;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    border-top-left-radius: 15%;
+    border-bottom-right-radius: 30%;
+}
+
+#item{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #CCFFFF;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#item input{
+    height: 35px;
+    width: 50%;
+    font-size: 24px;
+    padding: 0 5px;
+}
+
+#itemb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#itemb button{
+    height: 40px;
+    width: 140px;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-radius: 25px;
+    background-color: #5978ed;
+    border: 2px solid #5978ed;
+    color: whitesmoke;
+}
+
+#itemb h2 span, #itemb h2{
+    color: aliceblue;
+}
+
+#itemb h2 span:hover{
+    color: #ffff00;
+}
+
+#itemb button:hover{
+    background-color: #66ff00;
+    color: black;
+    border: 3px solid #66ff00;
+}
+
+
+
+
+
+/* ---------------------------------LogIn.jsx-------------------------------------- */
+.login{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login form{
+    height: 200px;
+    width: 600px;
+    background-color: #852447;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 175px;
+}
+
+#items{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #CCFFFF;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#items input{
+    height: 35px;
+    width: 50%;
+    font-size: 24px;
+    padding: 0 5px;
+}
+
+#itemsb{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+#itemsb button{
+    height: 40px;
+    width: 140px;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-radius: 25px;
+    background-color: #5978ed;
+    border: 2px solid #5978ed;
+    color: whitesmoke;
+}
+
+#itemsb button:hover{
+    background-color: #66ff00;
+    color: black;
+    border: 3px solid #66ff00;
+}
+
+#itemsb h2 span, #itemsb h2{
+    color: aliceblue;
+}
+
+#itemsb h2 span:hover{
+    color: #ffff00;
+}
+
+
+
+
+/* ----------------------------------------Product.jsx------------------------------------ */
+
+.prod{
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.prodnav{
+    width: 100px;
+    height: 90vh;
+}
+
+.prodnav ul{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    flex-direction: column;
+    background-color: #291f29;
+}
+
+.prodnav ul li{
+    list-style: none;
+}
+
+.linker{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #CCFFFF;
+}
+
+.linker:hover{
+    color: #66ff00;
+}
+
+#display1{
+    width: 100%;
+    height: 90vh;
+    margin-left: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------Cart.jsx------------------------------------------- */
+
+.cart{
+    margin: 15px;
+    text-align: center;
+}
+
+.cart_Card{
+    width: 250px;
+    height: 380px;
+    background-color: grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cart_Card img{
+    width: 230px;
+    height: 170px;
+}
+
+.cart_Card h3, .cart_Card h2{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cart_Card p{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+
+#prodValue{
+    width: 110px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#prodValue button{
+    padding: 6px 12px;
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+    border: 2px solid #4d0066;
+    border-radius: 50px;
+    background-color: #4d0066;
+    color: #CCFFFF;
+}
+
+#prodValue button:hover{
+    background-color: #ffff00;
+    color: black;
+    border: 3px solid #ffff00;
+}
+
+#prodValue h4{
+    font-size: 24px;
+    font-weight: bold;
+}

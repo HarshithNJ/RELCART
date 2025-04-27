@@ -1,0 +1,91 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#promos{
+    height: 700px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+#promos h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#promo{
+    height: 680px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+#promo h3{
+    font-size: 24px;
+}
+
+#promo div{
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+.show h2{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.navigator{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navigator div{
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.navigator img{
+    height: 250px;
+    width: 250px;
+}
+
+.navigator h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navigator button{
+    height: 50px;
+    width: 120px;
+    font-size: 18px;
+    font-weight: bolder;
+    border: 2px solid #0d3d0d;
+    border-radius: 25px;
+    color: #00529e;
+    background-color:  #e8f77d;
+}
+
+.navigator button:hover{
+    border: 2px solid #e8f77d;
+    color: whitesmoke;
+    background-color: #0d3d0d;
+}
