@@ -1,19 +1,18 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
-
-
-
 
 /* ---------------------------------------Home.jsx------------------------------ */
 .nav{
     height: 80px;
     width: 100%;
-    background-color: #4d0066;
+    background: linear-gradient(135deg, #4d0066, #852447);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
 }
 
 #logo{
@@ -26,11 +25,16 @@
     margin: 20px;
     font-size: 30px;
     color: #66ff00;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
 #logo img{
     margin: 0 0 0 80px;
     height: 40px;
     width: 50px;
+    transition: transform 0.3s ease;
+}
+#logo img:hover {
+    transform: scale(1.1);
 }
 
 .nav ul{
@@ -43,17 +47,21 @@
     list-style: none;
     font-size: 26px;
     font-weight: bold;
+    transition: transform 0.2s ease;
+}
+.nav ul li:hover {
+    transform: translateY(-2px);
 }
 
 .link{
     text-decoration: none;
     color: #CCFFFF;
+    transition: color 0.3s ease;
 }
 
 .link:hover{
     color: #ffff00;
 }
-
 
 #btns{
     width: 20%;
@@ -72,9 +80,12 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 24px;
     font-weight: bold;
-    background-color: #5978ed;
-    border: 2px solid #5978ed;
+    background: linear-gradient(135deg, #5978ed, #4a67d8);
+    border: none;
     border-radius: 25px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(89, 120, 237, 0.3);
 }
 
 button .link1{
@@ -82,17 +93,13 @@ button .link1{
 }
 
 #btns button:hover{
-    background-color: #66ff00;
-    border: 3px solid #66ff00;
+    background: linear-gradient(135deg, #66ff00, #4dcc00);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(102, 255, 0, 0.4);
 }
 button .link1:hover{
-    background-color: #66ff00;
     color: black;
 }
-
-
-
-
 
 /* ------------------------------Register.jsx---------------------------------- */
 .signup{
@@ -101,19 +108,25 @@ button .link1:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
 }
 
 .signup form{
     height: 550px;
     width: 600px;
-    background-color: #852447;
+    background: linear-gradient(135deg, #852447, #6b1d39);
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    padding: 10px;
-    border-top-left-radius: 15%;
-    border-bottom-right-radius: 30%;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(133, 36, 71, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.signup form:hover {
+    transform: translateY(-5px);
 }
 
 #item{
@@ -130,7 +143,16 @@ button .link1:hover{
     height: 35px;
     width: 50%;
     font-size: 24px;
-    padding: 0 5px;
+    padding: 0 15px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.9);
+    transition: all 0.3s ease;
+}
+
+#item input:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(204, 255, 255, 0.5);
 }
 
 #itemb{
@@ -147,13 +169,17 @@ button .link1:hover{
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     border-radius: 25px;
-    background-color: #5978ed;
-    border: 2px solid #5978ed;
+    background: linear-gradient(135deg, #5978ed, #4a67d8);
+    border: none;
     color: whitesmoke;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(89, 120, 237, 0.3);
 }
 
 #itemb h2 span, #itemb h2{
     color: aliceblue;
+    transition: color 0.3s ease;
 }
 
 #itemb h2 span:hover{
@@ -161,14 +187,11 @@ button .link1:hover{
 }
 
 #itemb button:hover{
-    background-color: #66ff00;
+    background: linear-gradient(135deg, #66ff00, #4dcc00);
     color: black;
-    border: 3px solid #66ff00;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(102, 255, 0, 0.4);
 }
-
-
-
-
 
 /* ---------------------------------LogIn.jsx-------------------------------------- */
 .login{
@@ -177,19 +200,25 @@ button .link1:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
 }
 
 .login form{
-    height: 200px;
+    height: 280px;
     width: 600px;
-    background-color: #852447;
+    background: linear-gradient(135deg, #852447, #6b1d39);
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    padding: 10px;
-    border-top-left-radius: 80px;
-    border-bottom-right-radius: 175px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(133, 36, 71, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.login form:hover {
+    transform: translateY(-5px);
 }
 
 #items{
@@ -206,7 +235,16 @@ button .link1:hover{
     height: 35px;
     width: 50%;
     font-size: 24px;
-    padding: 0 5px;
+    padding: 0 15px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.9);
+    transition: all 0.3s ease;
+}
+
+#items input:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(204, 255, 255, 0.5);
 }
 
 #itemsb{
@@ -223,30 +261,31 @@ button .link1:hover{
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     border-radius: 25px;
-    background-color: #5978ed;
-    border: 2px solid #5978ed;
+    background: linear-gradient(135deg, #5978ed, #4a67d8);
+    border: none;
     color: whitesmoke;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(89, 120, 237, 0.3);
 }
 
 #itemsb button:hover{
-    background-color: #66ff00;
+    background: linear-gradient(135deg, #66ff00, #4dcc00);
     color: black;
-    border: 3px solid #66ff00;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(102, 255, 0, 0.4);
 }
 
 #itemsb h2 span, #itemsb h2{
     color: aliceblue;
+    transition: color 0.3s ease;
 }
 
 #itemsb h2 span:hover{
     color: #ffff00;
 }
 
-
-
-
 /* ----------------------------------------Product.jsx------------------------------------ */
-
 .prod{
     width: 90%;
     height: 90vh;
@@ -257,7 +296,7 @@ button .link1:hover{
 
 .prodnav{
     width: 100px;
-    height: 90vh;
+    height: 100vh;
 }
 
 .prodnav ul{
@@ -268,11 +307,17 @@ button .link1:hover{
     align-items: center;
     padding: 30px;
     flex-direction: column;
-    background-color: #291f29;
+    background: linear-gradient(180deg, #291f29, #1a141a);
+    box-shadow: 2px 0 10px rgba(0,0,0,0.2);
 }
 
 .prodnav ul li{
     list-style: none;
+    transition: transform 0.2s ease;
+}
+
+.prodnav ul li:hover {
+    transform: translateX(5px);
 }
 
 .linker{
@@ -280,6 +325,7 @@ button .link1:hover{
     font-size: 20px;
     font-weight: bold;
     color: #CCFFFF;
+    transition: color 0.3s ease;
 }
 
 .linker:hover{
@@ -292,19 +338,7 @@ button .link1:hover{
     margin-left: 80px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /* ---------------------------------------------------------------Cart.jsx------------------------------------------- */
-
 .cart{
     margin: 15px;
     text-align: center;
@@ -313,27 +347,39 @@ button .link1:hover{
 .cart_Card{
     width: 250px;
     height: 380px;
-    background-color: grey;
+    background: linear-gradient(135deg, #808080, #666666);
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+    padding: 15px;
+}
+
+.cart_Card:hover {
+    transform: translateY(-5px);
 }
 
 .cart_Card img{
     width: 230px;
     height: 170px;
+    border-radius: 10px;
+    object-fit: cover;
 }
 
 .cart_Card h3, .cart_Card h2{
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
 }
 
 .cart_Card p{
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 300;
+    color: #f0f0f0;
 }
 
 #prodValue{
@@ -348,19 +394,24 @@ button .link1:hover{
     font-size: 24px;
     font-weight: bolder;
     text-align: center;
-    border: 2px solid #4d0066;
+    border: none;
     border-radius: 50px;
-    background-color: #4d0066;
+    background: linear-gradient(135deg, #4d0066, #3a004d);
     color: #CCFFFF;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(77, 0, 102, 0.3);
 }
 
 #prodValue button:hover{
-    background-color: #ffff00;
+    background: linear-gradient(135deg, #ffff00, #e6e600);
     color: black;
-    border: 3px solid #ffff00;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 255, 0, 0.4);
 }
 
 #prodValue h4{
     font-size: 24px;
     font-weight: bold;
+    color: #ffffff;
 }

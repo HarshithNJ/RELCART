@@ -15,15 +15,29 @@
     align-items: center;
     flex-direction: column;
     background-color: #d6ebff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hats div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
 }
 
 .hats img{
     height: 150px;
     width: 180px;
+    transition: transform 0.3s ease;
+}
+
+.hats img:hover {
+    transform: scale(1.05);
 }
 
 .hats h1{
     font-size: 28px;
+    color: #2c3e50;
 }
 
 .hats button{
@@ -33,14 +47,22 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     font-weight: bold;
-    border: 2px solid;
+
+    border: none;
     border-radius: 25px;
-    background-color: #5978ed;
-    color: #CCFFFF;
+
+
+    background: linear-gradient(45deg, #3498db, #2980b9);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .hats button:hover{
-    color: #ffff00;
+
+    background: linear-gradient(45deg, #2980b9, #3498db);
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(52, 152, 219, 0.4);
 }
 
 
@@ -65,17 +87,32 @@
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    background-color: #cce6cc;
+
+    background-color: #e8f5e9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ties div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
 }
 
 .ties img{
     height: 150px;
     width: 180px;
+    transition: transform 0.3s ease;
+}
+
+.ties img:hover {
+    transform: scale(1.05);
 }
 
 .ties h1{
     text-align: center;
     font-size: 26px;
+    color: #2c3e50;
 }
 
 .ties button{
@@ -85,14 +122,22 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     font-weight: bold;
-    border: 2px solid;
+
+    border: none;
     border-radius: 25px;
-    background-color: #5978ed;
-    color: #CCFFFF;
+
+
+    background: linear-gradient(45deg, #27ae60, #2ecc71);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .ties button:hover{
-    color: #ffff00;
+
+    background: linear-gradient(45deg, #2ecc71, #27ae60);
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(46, 204, 113, 0.4);
 }
 
 
@@ -114,17 +159,32 @@
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    background-color: #cccccc;
+
+    background-color: #f5f6fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.shirt div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
 }
 
 .shirt img{
     height: 150px;
     width: 180px;
+    transition: transform 0.3s ease;
+}
+
+.shirt img:hover {
+    transform: scale(1.05);
 }
 
 .shirt h1{
     text-align: center;
     font-size: 26px;
+    color: #2c3e50;
 }
 
 .shirt button{
@@ -134,14 +194,22 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     font-weight: bold;
-    border: 2px solid;
+
+    border: none;
     border-radius: 25px;
-    background-color: #5978ed;
-    color: #CCFFFF;
+
+
+    background: linear-gradient(45deg, #9b59b6, #8e44ad);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .shirt button:hover{
-    color: #ffff00;
+
+    background: linear-gradient(45deg, #8e44ad, #9b59b6);
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(155, 89, 182, 0.4);
 }
 
 
@@ -162,17 +230,32 @@
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    background-color: #cccccc;
+
+    background-color: #fff3e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pant div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
 }
 
 .pant img{
     height: 150px;
     width: 180px;
+    transition: transform 0.3s ease;
+}
+
+.pant img:hover {
+    transform: scale(1.05);
 }
 
 .pant h1{
     text-align: center;
     font-size: 26px;
+    color: #2c3e50;
 }
 
 .pant button{
@@ -182,14 +265,22 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     font-weight: bold;
-    border: 2px solid;
+
+    border: none;
     border-radius: 25px;
-    background-color: #5978ed;
-    color: #CCFFFF;
+
+
+    background: linear-gradient(45deg, #e67e22, #d35400);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .pant button:hover{
-    color: #ffff00;
+
+    background: linear-gradient(45deg, #d35400, #e67e22);
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(230, 126, 34, 0.4);
 }
 
 
@@ -213,17 +304,32 @@
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    background-color: #cccccc;
+
+    background-color: #fce4ec;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.shoe div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
 }
 
 .shoe img{
     height: 150px;
     width: 180px;
+    transition: transform 0.3s ease;
+}
+
+.shoe img:hover {
+    transform: scale(1.05);
 }
 
 .shoe h1{
     text-align: center;
     font-size: 26px;
+    color: #2c3e50;
 }
 
 .shoe button{
@@ -233,12 +339,20 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     font-weight: bold;
-    border: 2px solid;
+
+    border: none;
     border-radius: 25px;
-    background-color: #5978ed;
-    color: #CCFFFF;
+
+
+    background: linear-gradient(45deg, #e91e63, #c2185b);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .shoe button:hover{
-    color: #ffff00;
+
+    background: linear-gradient(45deg, #c2185b, #e91e63);
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(233, 30, 99, 0.4);
 }
