@@ -23,7 +23,7 @@ const Cart = () => {
       <h1>Cart Details</h1>
       {cartItem ? (
           <div className="cart_Card">
-            <img src={cartItem.image} alt={prod.name} width="200" />
+            <img src={cartItem.image} alt={cartItem.name} width="200" />
             <h2>{cartItem.name}</h2>
             <p>Size: {cartItem.size}</p>
             <p>Rs. {cartItem.price}</p>
