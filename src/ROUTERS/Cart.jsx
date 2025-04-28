@@ -1,11 +1,10 @@
-import React, { useState } from 'react'
-import { useLocation } from 'react-router-dom';
+import React, { useContext, useState } from 'react'
+import { CartContext } from '../CartContext'
 
 const Cart = () => {
-  
-  let location = useLocation()
 
-  let prod = location.state;
+  let {cartItem} = useContext(CartContext)
+
   let [count, setCount] = useState(1)
 
 
@@ -22,18 +21,18 @@ const Cart = () => {
   return (
     <div className='cart'>
       <h1>Cart Details</h1>
-      {prod ? (
+      {cartItem ? (
           <div className="cart_Card">
-            <img src={prod.image} alt={prod.name} width="200" />
-            <h2>{prod.name}</h2>
-            <p>Size: {prod.size}</p>
-            <p>Rs. {prod.price}</p>
+            <img src={cartItem.image} alt={prod.name} width="200" />
+            <h2>{cartItem.name}</h2>
+            <p>Size: {cartItem.size}</p>
+            <p>Rs. {cartItem.price}</p>
             <div id='prodValue'>
               <button onClick={handleDecrement}> - </button>
               <h4>{count}</h4>
               <button onClick={handleIncrement}> + </button>
             </div>
-            <h3>Total: Rs. {prod.price * count}</h3>
+            <h3>Total: Rs. {cartItem.price * count}</h3>
           </div>
       ): (
         <p>No item in cart.</p>

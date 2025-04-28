@@ -69,7 +69,9 @@ let routers = createBrowserRouter([
 const App = () => {
   return (
     <div>
-        <RouterProvider router={routers}></RouterProvider>
+        <CartProvider>
+            <RouterProvider router={routers}></RouterProvider>
+        </CartProvider>
     </div>
   )
 }
