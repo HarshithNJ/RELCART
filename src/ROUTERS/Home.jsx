@@ -22,8 +22,8 @@ const Home = () => {
           <li><Link className='link' to='/cart'>Cart</Link></li>
         </ul>
         <div id="btns">
-          <button><Link className='link1' to='/register'>Register</Link></button>
-          <button><Link className='link1' to='/login'>Log In</Link></button>
+          <Link className='link1' to='/register'><button>Register</button></Link>
+          <Link className='link1' to='/login'><button>Log In</button></Link>
         </div>
       </div>
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, Navigate, RouterProvider } from 'react-router-dom'
 import "./App.css"
 import Home from './ROUTERS/Home'
 import Register from './ROUTERS/Register'
@@ -16,6 +16,10 @@ import { CartProvider } from './CartContext'
 
 
 let routers = createBrowserRouter([
+    {
+        path : "/",
+        element : <Navigate to="/home" replace = {true}/>
+    },
     {
         path : "/",
         element : <Home></Home>,

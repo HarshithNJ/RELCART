@@ -84,21 +84,16 @@
     border: none;
     border-radius: 25px;
     transition: all 0.3s ease;
+    color: #CCFFFF;
     cursor: pointer;
     box-shadow: 0 4px 15px rgba(89, 120, 237, 0.3);
 }
 
-button .link1{
-    color: #CCFFFF;
-}
-
 #btns button:hover{
     background: linear-gradient(135deg, #66ff00, #4dcc00);
+    color: black;
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(102, 255, 0, 0.4);
-}
-button .link1:hover{
-    color: black;
 }
 
 /* ------------------------------Register.jsx---------------------------------- */
@@ -342,6 +337,29 @@ button .link1:hover{
 .cart{
     margin: 15px;
     text-align: center;
+}
+
+.arrange{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 25px;
+    flex-flow: wrap;
+    padding: 20px;
+    animation: fadeIn 0.8s ease-in;
+    perspective: 1000px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .cart_Card{

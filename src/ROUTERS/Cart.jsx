@@ -1,44 +1,50 @@
-import React, { useContext, useState } from 'react'
-import { CartContext } from '../CartContext'
+import React, { useContext, useState } from 'react';
+import { CartContext } from '../CartContext';
 
 const Cart = () => {
+  const { cartItems } = useContext(CartContext);
 
-  let {cartItem} = useContext(CartContext)
+  const [quantities, setQuantities] = useState({});
 
-  let [count, setCount] = useState(1)
+  const handleIncrement = (id) => {
+    setQuantities(prev => ({
+      ...prev,
+      [id]: (prev[id] || 1) + 1
+    }));
+  };
 
-
-  let handleIncrement = ()=> {
-    setCount(count+1)
-  }
-
-
-  let handleDecrement = ()=> {
-    setCount(count => (count > 1 ? count - 1 : 1))
-  }
-
+  const handleDecrement = (id) => {
+    setQuantities(prev => ({
+      ...prev,
+      [id]: prev[id] > 1 ? prev[id] - 1 : 1
+    }));
+  };
 
   return (
     <div className='cart'>
       <h1>Cart Details</h1>
-      {cartItem ? (
-          <div className="cart_Card">
-            <img src={cartItem.image} alt={cartItem.name} width="200" />
-            <h2>{cartItem.name}</h2>
-            <p>Size: {cartItem.size}</p>
-            <p>Rs. {cartItem.price}</p>
-            <div id='prodValue'>
-              <button onClick={handleDecrement}> - </button>
-              <h4>{count}</h4>
-              <button onClick={handleIncrement}> + </button>
+      <div className="arrange">
+        {cartItems.length > 0 ? (
+          cartItems.map((item, index) => (
+            <div key={index} className="cart_Card">
+              <img src={item.image} alt={item.name} width="200" />
+              <h2>{item.name}</h2>
+              <p>Size: {item.size}</p>
+              <p>Rs. {item.price}</p>
+              <div id='prodValue'>
+                <button onClick={() => handleDecrement(index)}> - </button>
+                <h4>{quantities[index] || 1}</h4>
+                <button onClick={() => handleIncrement(index)}> + </button>
+              </div>
+              <h3>Total: Rs. {(item.price * (quantities[index] || 1)).toLocaleString()}</h3>
             </div>
-            <h3>Total: Rs. {cartItem.price * count}</h3>
-          </div>
-      ): (
-        <p>No item in cart.</p>
-      )}
+          ))
+        ) : (
+          <p>No item in cart.</p>
+        )}
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Cart
+export default Cart;
